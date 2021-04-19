@@ -5,7 +5,7 @@ import Portfolio from '../pages/Portfolio'
 export default new VueRouter({
     routes: [
         {
-            path: '/application',
+            path: '/',
             component: Application
         },
         {

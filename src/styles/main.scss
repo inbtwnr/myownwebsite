@@ -1,0 +1,91 @@
+//Fonts in project
+$main-font: 'Segoe UI', sans-serif;
+$additional-font: 'IBM Plex Mono', monospace;
+
+//Font size for PC sreens
+$header1-pc-size: 72px;
+$header2-pc-size: 48px;
+$header3-pc-size: 36px;
+$header4-pc-size: 24px;
+$paragraph1-pc-size: 28px;
+$paragraph2-pc-size: 24px;
+
+//Wrappers for different types of screen
+$wrapper-pc-width: 1318px;
+
+body { margin: 0; }
+
+#app { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
+@media screen and (min-device-width: 1440px) {
+    
+    body {
+        padding: 64px;
+        font-family: $main-font;
+        color: #2c3e50;
+    }
+
+    .navigationBar {
+        display: flex;
+        width: $wrapper-pc-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 { 
+        font-size: $header1-pc-size; 
+        font-weight: bold;
+    }
+
+    h2 { 
+        font-size: $header2-pc-size; 
+        font-weight: bold;
+    }
+
+    h3 { 
+        font-size: $header3-pc-size; 
+        font-weight: 600;
+    }
+
+    h4 { 
+        font-size: $header4-pc-size;
+        font-weight: bold;
+        margin: 0;
+    }
+
+    .divWrapper{
+        width: $wrapper-pc-width;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigationBar {
+        h4, a {
+            margin-right: 48px;
+            text-decoration: none;
+        }
+        :last-child {
+            margin-right: 0px;
+        }
+    }
+    
+    .navigationLink {
+        font-size: $paragraph2-pc-size;
+    }
+
+    .textBlock {
+        width: 1113px; 
+    }
+
+    .paragraph1 { 
+        font-size: 28px;
+        line-height: 170%;
+        width: 980px;
+    }
+    
+    .paragraph2 {
+        font-size: 24px;
+        line-height: 170%;
+        width: 980px;
+    }
+}

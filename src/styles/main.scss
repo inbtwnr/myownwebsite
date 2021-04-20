@@ -13,8 +13,10 @@ $header4-pc-size: 24px;
 $paragraph1-pc-size: 28px;
 $paragraph2-pc-size: 24px;
 
-//Wrappers for different types of screen
+//Width for different types of screen
 $wrapper-pc-width: 1318px;
+$textblock-pc-width: 1113px;
+$paragraph-pc-width: 980px;
 
 body { margin: 0; }
 
@@ -38,11 +40,13 @@ body { margin: 0; }
     h1 { 
         font-size: $header1-pc-size; 
         font-weight: bold;
+        margin: 86px 0 0 0;
     }
 
     h2 { 
         font-size: $header2-pc-size; 
         font-weight: bold;
+        margin: 0 0 48px 0;
     }
 
     h3 { 
@@ -60,6 +64,8 @@ body { margin: 0; }
         width: $wrapper-pc-width;
         margin-left: auto;
         margin-right: auto;
+        display: flex;
+        flex-direction: column;
     }
 
     .navigationBar {
@@ -76,20 +82,21 @@ body { margin: 0; }
         font-size: $paragraph2-pc-size;
     }
 
-    .textBlock {
-        width: 1113px; 
+    .textblock {
+        width: $textblock-pc-width;
+        margin: 86px 0 0 0;
     }
 
     .paragraph1 { 
         font-size: $paragraph1-pc-size;
         line-height: 170%;
-        width: 980px;
+        width: $paragraph-pc-width;
     }
     
     .paragraph2 {
         font-size: $paragraph2-pc-size;
         line-height: 170%;
-        width: 980px;
+        width: $paragraph-pc-width;
     }
 
     .listContainer{
@@ -102,13 +109,14 @@ body { margin: 0; }
         .paragraph2{
             width: 664px;
         }
+        p{
+            margin: 0;
+        }
     }
     .listWrapper{
         padding: 0;
         margin: 0;
     }
 
-    p{
-        margin: 0;
-    }
+    
 }

@@ -24,7 +24,7 @@ export default {
                 },
                 { 
                     skillCategory: 'Frontend',
-                    skills: 'HTML & CSS, VueJS, NodeJS, JavaScript, Github.'
+                    skills: 'HTML & CSS, Sass, VueJS, NodeJS, JavaScript, Github.'
                 },
                 { 
                     skillCategory: 'Рівні володіння мови',

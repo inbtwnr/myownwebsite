@@ -159,6 +159,7 @@ body { margin: 0; }
         }
         margin-bottom: 16px;
     }
+
     .aboutWorkingBlock{
         
         h4{
@@ -188,4 +189,31 @@ body { margin: 0; }
         margin-bottom: 48px;
     }
 
+
+    //Education component styles
+
+    .listUniWrapper{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .uniInfoRow{
+        display: flex;
+        margin-bottom: 16px;
+        align-items: baseline;
+        flex-direction: row;
+        :first-child{
+            margin-right: 16px;
+        }
+        .paragraph2{
+            width: 20%;
+            color: $additional-font-color;
+        }
+    }
+
+    .uniDetails{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

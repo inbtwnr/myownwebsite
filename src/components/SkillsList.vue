@@ -1,6 +1,6 @@
 <template>
     <div class="paragraph1">
-        <ul class="listSkillWrapper" id="array-1">
+        <ul class="listSkillWrapper">
             <li v-for="(category) in categories" :key = "category.id" class="listSkillContainer">
                 <h4>{{ category.skillCategory }}</h4> <p class="paragraph2">{{ category.skills }}</p> 
             </li>
@@ -9,7 +9,6 @@
 </template>
 <script>
 export default {
-    el: "#array-1",
     name: 'SkillsList',
     data: function () {
         return {
@@ -32,7 +31,7 @@ export default {
                 },
                 { 
                     skillCategory: '«Soft skills»',
-                    skills: 'креативне і аналітичне мислення, емпатія, витривалість.'
+                    skills: 'Креативне і аналітичне мислення, емпатія, витривалість.'
                 },
             ]
         }

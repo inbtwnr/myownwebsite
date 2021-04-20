@@ -4,6 +4,7 @@
         <about-me></about-me>
         <my-skills></my-skills>
         <experience></experience>
+        <education></education>
     </div>
 </template>
 
@@ -11,6 +12,7 @@
 import AboutMe from '../components/AboutMe.vue'
 import MySkills from '../components/MySkills.vue'
 import Experience from '../components/Experience.vue'
+import Education from '../components/Education.vue'
 
 export default {
     name: 'Application',
@@ -18,6 +20,7 @@ export default {
         AboutMe,
         MySkills,
         Experience,
+        Education,
     }
 }
 </script>

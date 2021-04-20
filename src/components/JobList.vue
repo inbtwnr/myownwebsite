@@ -1,6 +1,6 @@
 <template>
     <div class="paragraph1">
-        <ul id="array_2" class="listJobsWrapper">
+        <ul class="listJobsWrapper">
             <li v-for="(job) in jobs" :key = "job.id" class="jobInfoBlock">
                 <div class="companyInfoRow">
                     <h3>{{ job.nameOfJob }}</h3> <p class="paragraph2"> {{job.startOfWorking}} — {{job.endOfWorking}}</p>
@@ -22,7 +22,6 @@
 
 <script>
 export default {
-    el: '#array_2',
     name: 'JobList',
     data: function () {
         return {

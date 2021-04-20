@@ -91,4 +91,24 @@ body { margin: 0; }
         line-height: 170%;
         width: 980px;
     }
+
+    .listContainer{
+        display: flex;
+        margin: 0 0 32px 0;
+        h4{
+            line-height: 170%;
+            width: 315px;
+        }
+        .paragraph2{
+            width: 664px;
+        }
+    }
+    .listWrapper{
+        padding: 0;
+        margin: 0;
+    }
+
+    p{
+        margin: 0;
+    }
 }

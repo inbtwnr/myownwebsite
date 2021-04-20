@@ -1,8 +1,8 @@
 <template>
     <div class="paragraph1">
-        <ul class="listWrapper" id="array-1">
-            <li v-for="(category) in categories" :key = "category.id" class="listContainer">
-                <h4>{{ category.skillCategory }}: </h4> <p class="paragraph2">{{ category.skills }}</p> 
+        <ul class="listSkillWrapper" id="array-1">
+            <li v-for="(category) in categories" :key = "category.id" class="listSkillContainer">
+                <h4>{{ category.skillCategory }}</h4> <p class="paragraph2">{{ category.skills }}</p> 
             </li>
         </ul>
     </div>

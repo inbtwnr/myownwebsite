@@ -286,14 +286,28 @@ body { margin: 0; }
         display: flex;
         flex-direction: column;
         margin-top: 56px;
+        padding: 0;
         a{
             font-size: $header4-pc-size;
             font-weight: bold;
+            text-decoration: none;   
+        }
+        a:visited{
+            color: #fff;
+        }
+        li{
+            list-style-type: none;
+            padding: 0;
+            
             margin-bottom: 16px;
         }
         :last-child{
             margin: 0;
         }
+    }
+
+    .emptyLink{
+        display: none;
     }
 }
 

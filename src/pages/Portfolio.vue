@@ -1,16 +1,16 @@
 <template>
-    <div class="divWrapper">
+    <div class="div-wrapper">
         <h1>Портфоліо</h1>
-        <portfolio-case></portfolio-case>
+        <portfolio-list></portfolio-list>
     </div>
 </template>
 
 <script>
-import PortfolioCase from '../components/PortfolioCase.vue'
+import PortfolioList from '../components/PortfolioList.vue'
 
     export default {
         components:{
-            PortfolioCase,
+            PortfolioList,
         }
     }
 </script>

@@ -29,7 +29,7 @@ export default {
                 {
                     nameOfJob: 'Sterna.studio',
                     startOfWorking: 'Серпень 2020',
-                    endOfWorking: 'Січень 2021',
+                    endOfWorking: 'Дотепер',
                     position: 'Дизайнер інтерфейсів',
                     aboutJob: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, litora metus porta integer consequat quisque fringilla, mi dictum neque ultrices maximus diam. In proin iaculis venenatis diam purus dis nostra volutpat auctor ornare.',
                     acts: [ 

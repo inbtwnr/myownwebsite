@@ -1,5 +1,5 @@
 <template>
-    <div class="divWrapper">
+    <div class="div-wrapper">
         <h1>Резюме</h1>
         <about-me></about-me>
         <my-skills></my-skills>

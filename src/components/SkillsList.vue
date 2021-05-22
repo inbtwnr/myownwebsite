@@ -10,7 +10,7 @@
 <script>
 export default {
     name: 'SkillsList',
-    data: function () {
+    data() {
         return {
             categories: [
                 { 

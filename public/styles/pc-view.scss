@@ -1,0 +1,209 @@
+@import 'main';
+
+
+    //Application
+
+    //Skill component styles
+
+    .listSkillContainer{
+        display: flex;
+        margin: 0 0 32px 0;
+        h4{
+            line-height: 170%;
+            width: 315px;
+        }
+        .paragraph2{
+            margin: 0;
+            width: 664px;
+        }
+    }
+
+
+    //Job Info component styles
+
+    .listSkillWrapper{
+        padding: 0;
+        margin: 0;
+    }
+
+    .listJobsWrapper{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .companyInfoRow{
+        display: flex;
+        margin-bottom: 16px;
+        align-items: baseline;
+        flex-direction: row;
+        :first-child{
+            margin-right: 16px;
+        }
+        .paragraph2{
+            color: $additional-font-color;
+        }
+    }
+
+    .aboutJobBlock{
+        h4{
+            margin-bottom: 4px;
+        }
+        p{
+            margin: 0;
+        }
+        margin-bottom: 16px;
+    }
+
+    .aboutWorkingBlock{
+        
+        h4{
+            margin-bottom: 4px;
+        }
+        
+        p{
+            margin: 0;
+        }
+        
+        margin-bottom: 16px;
+        
+        li{
+            margin-bottom: 12px;
+        }
+        
+        ul{
+            padding-left: 24px;
+            list-style-type: disc;
+            :last-child{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .jobInfoBlock{
+        margin-bottom: 48px;
+    }
+
+
+    //Education component styles
+
+    .listUniWrapper{
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+    .uniInfoRow{
+        display: flex;
+        margin-bottom: 16px;
+        align-items: baseline;
+        flex-direction: row;
+        :first-child{
+            margin-right: 16px;
+        }
+        .paragraph2{
+            width: 20%;
+            color: $additional-font-color;
+        }
+    }
+
+    .uniDetails{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    //Contacts
+
+    .businessCardContainer{
+        padding: 48px 54px;
+        background-image: linear-gradient(225deg, #E4FFE1,#E8EFFC);
+        width: 760px;
+        border-radius: 24px;
+        box-shadow: 0px 2px 4px rgba($color: #000000, $alpha: 0.25);
+    }
+
+    .nameAndLocation{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 68px;
+    }
+
+    .monoParagraph2{
+        font-family: $additional-font-family;
+        font-size: 24px;
+        line-height: 170%;
+        margin: 0;
+    }
+
+    .links{
+        display: flex;
+        flex-direction: column;
+        a{
+            font-size: 42px; 
+            font-weight: 600;
+            margin: 0 0 8px 0;
+            color: $main-font-color;
+            text-decoration: none;
+        }
+        :last-child{
+            margin: 0;
+        }
+    }
+
+
+    //Portfolio
+
+    //Case in Portfolio
+
+    .caseCard{
+        width: 100%;
+        height: 812px;
+        padding: 64px 56px;
+        box-sizing: border-box;
+        margin-top: 24px;
+        color: #ffffff;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolioList{
+        padding: 0;
+        margin-top: 86px;
+    }
+
+    .portfolioListCase{
+        list-style-type: none;
+    }
+
+    .innerCardInfo{
+        width:443px;
+        .paragraph2, h3{
+            width: 100%;
+        }
+    }
+
+    .projectLinkList{
+        display: flex;
+        flex-direction: column;
+        margin-top: 56px;
+        padding: 0;
+        a{
+            font-size: $header4-pc-size;
+            font-weight: bold;
+            text-decoration: none;   
+        }
+        a:visited{
+            color: #fff;
+        }
+        li{
+            list-style-type: none;
+            padding: 0;
+            
+            margin-bottom: 16px;
+        }
+        :last-child{
+            margin: 0;
+        }
+    }

@@ -11,7 +11,7 @@
                 </li>
             </ul>
         </div>
-        <div>
+        <div class="imageContainer">
             <img :src="imgOfProject" alt="No Photo" />
         </div>
     </div>
@@ -20,6 +20,6 @@
 <script>
 export default {
     name: 'PortfolioCase',
-    props: ['title', 'text', 'imgOfProject', 'links'],
+    props: ['title', 'text', 'imgOfProject', 'links', 'plateColor'],
 }
 </script>

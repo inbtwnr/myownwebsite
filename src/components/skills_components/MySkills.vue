@@ -1,13 +1,14 @@
 <template>
-    <div class="textblock">
-        <h2>
+    <div class="my-skills-block">
+        <p class="header-2">
             Мої навички
-        </h2>
+        </p>
         <skills-list></skills-list>
     </div>
 </template>
 <script>
-    import SkillsList from '../components/SkillsList.vue'
+    import SkillsList from '@/components/skills_components/SkillsList.vue'
+    
     export default {
         name: 'MySkills',
         components:{

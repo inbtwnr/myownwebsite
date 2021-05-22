@@ -1,0 +1,19 @@
+@import 'main';
+@import 'fonts';
+
+@media screen and (min-device-width: 1440px) {
+    .navigation-bar-block{
+        display: flex;
+        align-items: center;
+        width: $main-page-width-pc;       
+        .header-3{
+            margin-right: 24px; 
+        }
+        a{
+            text-decoration: none;
+        }
+        :last-child{
+            margin-right: 0;
+        }
+    }
+}

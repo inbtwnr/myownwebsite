@@ -3,8 +3,12 @@ import App from './App.vue'
 import VueRouter from 'vue-router'
 import router from './router/index'
 
-import '/public/styles/main.scss'
-import '/public/styles/pc-view.scss'
+import '/public/styles/_main.scss'
+import '/public/styles/_fonts.scss'
+import '/public/styles/navigation-bar-styles.scss'
+import '/public/styles/application-styles.scss'
+import '/public/styles/about-me-styles.scss'
+import '/public/styles/my-skills.scss'
 
 Vue.use(VueRouter)
 

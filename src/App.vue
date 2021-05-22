@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <div class="navigationBar"> 
-      <h4>Присяжний Олександр</h4>
-      <router-link to="/" class="navigationLink">Резюме</router-link>
-      <router-link to="/portfolio" class="navigationLink">Портфоліо</router-link>
-    </div>
-    
+    <navigation-bar></navigation-bar>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
+import NavigationBar from './components/NavigationBar.vue'
+
 export default {
   name: 'App',
+  components:{
+    NavigationBar
+  }
 }
 </script>
 

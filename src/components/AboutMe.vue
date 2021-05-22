@@ -1,7 +1,7 @@
 <template>
-    <div class="textblock">
-        <h2> {{ aboutMeHeader }} </h2>
-        <p class="paragraph1"> {{ aboutMeText }} </p>
+    <div class="about-me-block">
+        <p class="header-2"> {{ aboutMeHeader }} </p>
+        <p class="paragraph-primary"> {{ aboutMeText }} </p>
     </div>
 </template>
 <script>

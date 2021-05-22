@@ -1,5 +1,5 @@
 <template>
-    <div class="textblock">
+    <div>
         <h2>
             Освіта
         </h2>

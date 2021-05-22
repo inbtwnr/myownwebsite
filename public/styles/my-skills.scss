@@ -1,0 +1,51 @@
+@import 'main';
+@import 'fonts';
+
+@media screen and (min-device-width: 1440px) {
+    .my-skills-block {
+        width: $inner-main-page-width-pc;
+        .header-2{
+            margin-bottom: 36px;
+        }
+    }
+
+    .skills-list-block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+
+    .skill-item-block {
+        
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 40px;
+        :last-child{
+            margin-bottom: 0px;
+        }
+        
+        .skill-item-block-title { 
+            width: 162px;
+            .paragraph-secondary-semibold{
+                hanging-punctuation: first;
+            }
+        }
+        
+        .skill-item-block-list {
+            display: flex;
+            flex-direction: column;
+            width: 503px;
+            li{
+                margin-bottom: 8px;
+            }
+            :last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

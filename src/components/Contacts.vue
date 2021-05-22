@@ -1,5 +1,5 @@
 <template>
-    <div class="textblock">
+    <div>
         <h2>Контакти</h2>
         <div class="businessCardContainer">
             <div class="nameAndLocation">

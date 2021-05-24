@@ -4,6 +4,7 @@
 @media screen and (min-device-width: 1440px) {
     .my-skills-block {
         width: $inner-main-page-width-pc;
+        margin-bottom: 48px;
         .header-2{
             margin-bottom: 36px;
         }
@@ -21,14 +22,16 @@
     }
 
     .skill-item-block {
-        
         display: flex;
         justify-content: space-between;
-        margin-bottom: 40px;
-        :last-child{
-            margin-bottom: 0px;
-        }
+        margin-bottom: 16px;
+        border-bottom: 1px solid #CFDAFF;
+        padding-bottom: 28px;
         
+        :last-child{
+            border-bottom: none;
+        }
+
         .skill-item-block-title { 
             width: 162px;
             .paragraph-secondary-semibold{

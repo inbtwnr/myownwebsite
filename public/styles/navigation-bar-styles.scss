@@ -4,9 +4,10 @@
 @media screen and (min-device-width: 1440px) {
     .navigation-bar-block{
         display: flex;
+        margin-top: 48px;
         align-items: center;
         width: $main-page-width-pc;       
-        .header-3{
+        .paragraph-secondary-regular, .paragraph-secondary-semibold{
             margin-right: 24px; 
         }
         a{

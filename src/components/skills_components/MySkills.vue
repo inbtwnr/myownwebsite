@@ -7,7 +7,7 @@
     </div>
 </template>
 <script>
-    import SkillsList from '@/components/skills_components/SkillsList.vue'
+    import SkillsList from './SkillsList.vue'
     
     export default {
         name: 'MySkills',

@@ -2,34 +2,40 @@
     .header-1{
         font-size: 48px;
         line-height: 120%;
-        font-weight: 500;
+        font-weight: 600;
+        letter-spacing: -1px;
     }
     
     .header-2{
         font-size: 32px;
         line-height: 120%;
-        font-weight: 500;
+        font-weight: 600;
+        letter-spacing: -1.5px;
     }
     
-    .header-3{
+    .paragraph-primary-semibold{
         font-size: 24px;
         line-height: 120%;
-        font-weight: 500;
+        font-weight: 600;
+        letter-spacing: -1px;
     }
     
-    .paragraph-primary{
+    .paragraph-primary-regular{
         font-size: 24px;
         line-height: 170%;
+        letter-spacing: -1px;
     }
     
     .paragraph-secondary-regular{
-        font-size: 18px;
-        line-height: 160%;
+        font-size: 20px;
+        line-height: 130%;
+        letter-spacing: -0.5px;
     }
     
     .paragraph-secondary-semibold{
-        font-size: 18px;
-        line-height: 160%;
-        font-weight: 500;
+        font-size: 20px;
+        line-height: 130%;
+        font-weight: 600;
+        letter-spacing: -0.5px;
     }
 }

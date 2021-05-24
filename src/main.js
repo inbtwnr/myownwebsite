@@ -9,6 +9,7 @@ import '/public/styles/navigation-bar-styles.scss'
 import '/public/styles/application-styles.scss'
 import '/public/styles/about-me-styles.scss'
 import '/public/styles/my-skills.scss'
+import '/public/styles/work-experience.scss'
 
 Vue.use(VueRouter)
 

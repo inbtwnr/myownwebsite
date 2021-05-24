@@ -12,7 +12,7 @@
 <script>
 import AboutMe from '@/components/AboutMe.vue'
 import MySkills from '@/components/skills_components/MySkills.vue'
-import Experience from '@/components/Experience.vue'
+import Experience from '@/components/experience_components/Experience.vue'
 import Education from '@/components/Education.vue'
 import Contacts from '@/components/Contacts.vue'
 

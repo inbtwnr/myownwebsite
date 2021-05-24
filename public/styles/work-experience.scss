@@ -1,0 +1,50 @@
+@import 'main';
+@import 'fonts';
+
+@media screen and (min-device-width: 1440px) {
+    .work-experience-block{
+        width: $inner-main-page-width-pc;
+        .header-2{
+            margin-bottom: 36px;
+        }
+    }
+    .work-experience-job-list{
+        .paragraph-primary-semibold{
+            margin-bottom: 24px;
+        }
+    }
+
+    .work-experience-job-item{
+        background: #FBFDFF;
+        border: 1px solid #CFDAFF;
+        padding: 24px 48px 24px 20px;
+    }
+
+    .work-experience-job-item__job-title{
+        margin-bottom: 24px;
+        .header-2{
+            margin-bottom: 4px;
+        }
+        .paragraph-secondary-regular{
+            color: $additional-font-color;
+        }
+    }
+
+    .work-experience-job-item__job-description{
+        margin-bottom: 24px;
+        .paragraph-secondary-semibold{
+            margin-bottom: 12px;
+        }
+    }
+
+    .work-experience-job-item__duties-block{
+        .paragraph-secondary-semibold{
+            margin-bottom: 12px;
+        }
+        .paragraph-secondary-regular{
+            margin-bottom: 8px;
+            margin-left: 24px;
+        }
+    }
+    
+}

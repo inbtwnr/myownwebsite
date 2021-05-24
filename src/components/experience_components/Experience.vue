@@ -1,13 +1,11 @@
 <template>
-    <div>
-        <h2>
-            Досвід роботи
-        </h2>
+    <div class="work-experience-block">
+        <p class="header-2"> Досвід роботи </p>
         <job-list></job-list>
     </div>
 </template>
 <script>
-    import JobList from '../components/JobList.vue'
+    import JobList from './JobList.vue'
     
     export default {
         name: 'Experience',
@@ -17,3 +15,5 @@
     }
     
 </script>
+
+<style> </style>

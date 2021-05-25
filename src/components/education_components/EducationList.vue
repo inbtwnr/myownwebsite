@@ -1,31 +1,33 @@
 <template>
     <div>
-        <ul class="listUniWrapper">
-            <li v-for="education in educations" :key="education.id">
-                <div class="uniInfoRow">
-                    <h3>{{ education.nameOfUniversity }}</h3> <p class="paragraph2"> {{education.startOfStyding}} — {{education.endOfStyding}}</p>
-                </div>
-                <div class="uniDetails">
-                    <h4>{{ education.faculty }}</h4>
-                    <p class="paragraph2">{{ education.speciality }}</p>
-                </div>
+        <ul>
+            <li v-for="(education, index) in educations" :key="index" class="education-block-item">
+                <education-item
+                :university-name="education.universityName"
+                :graduation="education.graduation"
+                :faculty="education.faculty"
+                :speciality="education.speciality"
+                />
             </li>
         </ul>
     </div>
 </template>
 
 <script>
+import EducationItem from './EducationItem.vue'
 export default {
     name: 'EducationList',
+    components:{
+        EducationItem
+    },
     data: function(){
         return {
             educations: [
                 {
-                    nameOfUniversity: 'Ужгородський Національний університет',
-                    startOfStyding: '2017',
-                    endOfStyding: '2021',
+                    universityName: 'УЖНУ',
+                    graduation: '2021',
                     faculty: 'Факультет математики та цифрових технологій.',
-                    speciality: 'Спеціальність «Прикладна математика».'
+                    speciality: 'Прикладна математика. Бакалавр'
                 }
             ]
         }

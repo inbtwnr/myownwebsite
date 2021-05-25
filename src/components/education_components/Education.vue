@@ -1,8 +1,6 @@
 <template>
-    <div>
-        <h2>
-            Освіта
-        </h2>
+    <div class="education-block">
+        <h2 class="header-2"> Освіта </h2>
         <education-list></education-list> 
     </div>
 </template>

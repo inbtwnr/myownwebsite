@@ -8,8 +8,9 @@ import '/public/styles/_fonts.scss'
 import '/public/styles/navigation-bar-styles.scss'
 import '/public/styles/application-styles.scss'
 import '/public/styles/about-me-styles.scss'
-import '/public/styles/my-skills.scss'
-import '/public/styles/work-experience.scss'
+import '/public/styles/my-skills-styles.scss'
+import '/public/styles/work-experience-styles.scss'
+import '/public/styles/education-styles.scss'
 
 Vue.use(VueRouter)
 

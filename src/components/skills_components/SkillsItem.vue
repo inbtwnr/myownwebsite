@@ -6,7 +6,7 @@
             </p>
         </div> 
         <ul class = "skill-item-block-list">
-            <li v-for="(skill, index) in skills" :key = "index">
+            <li v-for="(skill, index) in skills" :key ="index">
                 <p class="paragraph-secondary-regular">
                     {{ skill }}
                 </p>

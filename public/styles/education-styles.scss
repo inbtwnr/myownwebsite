@@ -8,7 +8,7 @@
         .header-2{
             margin-bottom: 36px;
         }
-        &:last-child{
+        :last-child{
             margin-bottom: 0;
         }
         margin-bottom: 48px;
@@ -28,7 +28,7 @@
     .education-block-item__primary-title{
         margin-bottom: 4px;
         display: flex;
-        &:first-child{
+        :first-child{
             letter-spacing: 2.4px;
             margin-right: 8px;
         }

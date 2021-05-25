@@ -36,7 +36,8 @@ export default {
                 {
                     contactName: "alexanderjuror@gmail.com",
                     contactLink: "mailto:alexanderjuror@gmail.com"
-                }
+                },
+                
             ]
         }
     }

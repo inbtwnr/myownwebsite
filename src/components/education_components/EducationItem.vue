@@ -5,7 +5,7 @@
                 <p class="paragraph-primary-semibold">{{universityName}}</p>
                 <p class="paragraph-primary-semibold">{{faculty}}</p>
             </div>
-            <p class="paragraph-secondary-regular">Дата завершення {{graduation}}р.</p>
+            <p class="paragraph-secondary-regular">Дата завершення {{graduation}}</p>
         </div>
         <p class="paragraph-secondary-semibold">{{speciality}}</p>
     </div>

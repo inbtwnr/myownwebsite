@@ -39,3 +39,45 @@
         letter-spacing: -0.5px;
     }
 }
+
+@media screen and (min-device-width: 360px) and (max-device-width: 415px) {
+    .header-1{
+        font-size: 36px;
+        line-height: 120%;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    
+    .header-2{
+        font-size: 26px;
+        line-height: 120%;
+        font-weight: 600;
+        letter-spacing: -1.5px;
+    }
+    
+    .paragraph-primary-semibold{
+        font-size: 20px;
+        line-height: 120%;
+        font-weight: 600;
+        letter-spacing: -1px;
+    }
+    
+    .paragraph-primary-regular{
+        font-size: 20px;
+        line-height: 170%;
+        letter-spacing: -1px;
+    }
+    
+    .paragraph-secondary-regular{
+        font-size: 16px;
+        line-height: 160%;
+        letter-spacing: -0.5px;
+    }
+    
+    .paragraph-secondary-semibold{
+        font-size: 16px;
+        line-height: 130%;
+        font-weight: 600;
+        letter-spacing: -0.5px;
+    }
+}

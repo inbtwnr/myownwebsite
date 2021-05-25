@@ -1,0 +1,20 @@
+@import 'main';
+@import 'fonts';
+
+@media screen and (min-device-width: 1440px) {
+    .about-me-block {
+        width: $inner-main-page-width-pc;
+        margin-bottom: 48px;
+        p { margin: 0; }
+        .header-2 { margin-bottom: 24px; }
+    }
+}
+
+@media screen and (min-device-width: 359px) and (max-device-width: 415px){
+    .about-me-block {
+        width: $inner-main-page-width-mobile;
+        margin-bottom: 36px;
+        p { margin: 0; }
+        .header-2 { margin-bottom: 12px; }
+    }
+}

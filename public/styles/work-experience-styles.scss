@@ -23,7 +23,7 @@
         .work-experience-project-item{
             margin-bottom: 24px;
         }
-        :last-child{
+        &:last-child{
             margin-bottom: 0px;
         }
     }
@@ -100,4 +100,8 @@
             margin-bottom: 12px;
         }
     }
+}
+
+@media screen and (min-device-width: 359px) and (max-device-width: 415px){
+
 }

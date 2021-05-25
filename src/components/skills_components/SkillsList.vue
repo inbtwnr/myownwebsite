@@ -1,7 +1,7 @@
 <template>    
     <ul class="skill-list-block">
         <li v-for="(category, index) in categories" 
-            :key="index" >
+            :key="index" class="skill-list-item-wrapper">
             <skills-item 
                 :skill-category="category.skillCategory"
                 :skills="category.skills"

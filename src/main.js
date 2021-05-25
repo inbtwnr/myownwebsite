@@ -11,6 +11,7 @@ import '/public/styles/about-me-styles.scss'
 import '/public/styles/my-skills-styles.scss'
 import '/public/styles/work-experience-styles.scss'
 import '/public/styles/education-styles.scss'
+import '/public/styles/contacts-styles.scss'
 
 Vue.use(VueRouter)
 

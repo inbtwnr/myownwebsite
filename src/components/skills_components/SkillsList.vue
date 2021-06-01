@@ -40,7 +40,7 @@ export default {
                 { 
                     skillCategory: 'Рівні володіння мови',
                     skills: [
-                        "English – intermediate lever", "Українська – рідна", "Російська – вільне володіння"
+                        "English – intermediate level", "Українська – рідна", "Російська – вільне володіння"
                     ]
                 },
                 { 

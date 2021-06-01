@@ -1,7 +1,7 @@
 @import 'main';
 @import 'fonts';
 
-@media screen and (min-device-width: 1440px) {
+@media screen and (min-device-width: 1365px) {
     .my-skills-block {
         width: $inner-main-page-width-pc;
         margin-bottom: 48px;
@@ -20,9 +20,6 @@
     .skill-item-block {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 16px;
-        border-bottom: 1px solid #CFDAFF;
-        padding-bottom: 28px;
 
         .skill-item-block-title { 
             width: 162px;
@@ -41,6 +38,14 @@
             &:last-child{
                 margin-bottom: 0px;
             }
+        }
+    }
+    .skill-list-item-wrapper{
+        border-bottom: 1px solid #CFDAFF;
+        margin-bottom: 16px;
+        padding-bottom: 28px;
+        &:last-child{
+            border-bottom:none;
         }
     }
 }
@@ -64,9 +69,6 @@
     .skill-item-block {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 8px;
-        border-bottom: 1px solid #CFDAFF;
-        padding-bottom: 16px;
         
         .skill-item-block-title { 
             width: 110px;
@@ -89,7 +91,9 @@
     }
 
     .skill-list-item-wrapper{
-        
+        border-bottom: 1px solid #CFDAFF;
+        margin-bottom: 16px;
+        padding-bottom: 16px;
         &:last-child{
             border-bottom:none;
         }

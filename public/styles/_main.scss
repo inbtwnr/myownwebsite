@@ -21,24 +21,12 @@
         margin: 0;
     }
 
-    #app { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-
-    @media screen and (min-device-width: 1440px) {
-        #app {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: $main-font-family;
-            color: $main-font-color;
-        }
-    }
-
-    @media screen and (min-device-width: 359px) and (max-device-width: 415px) {
-        #app {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            font-family: $main-font-family;
-            color: $main-font-color;
-        }
+    #app { 
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $main-font-family;
+        color: $main-font-color;
     }

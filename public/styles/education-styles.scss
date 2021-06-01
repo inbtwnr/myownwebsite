@@ -28,7 +28,7 @@
     .education-block-item__primary-title{
         margin-bottom: 4px;
         display: flex;
-        &:first-child{
+        :first-child{
             letter-spacing: 2.4px;
             margin-right: 8px;
         }

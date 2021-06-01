@@ -29,3 +29,18 @@
         }
     }
 }
+
+@media screen and (min-device-width: 415px) and (max-device-width: 767px){
+    .application-block {
+        width: $main-page-width-mobile-landscape;
+        display: flex;
+        flex-direction: column;
+        margin: 48px 0;
+        p {
+            margin: 0;
+        }
+        .header-1 {
+            margin-bottom: 36px; 
+        }
+    }
+}

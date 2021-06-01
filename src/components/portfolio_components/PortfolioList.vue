@@ -1,35 +1,24 @@
 <template>
-    <div>
-        <ul class="portfolio-list">
+    <div class="portfolio-list">
+        <ul>
             <li v-for="(site, index) in sites" :key="index" class="portfolio-item">
-                <p class="header-2">{{site.title}}</p>
-                <div class="portfolio-item__content">
-                    <div class="">
-                        <img :src="`${site.imgOfProject}`" alt="@/images/project_image.png">
-                    </div>
-                    <div class="portfolio-item__information-block">
-                        <p class="paragraph-secondary-regular">{{site.description}}</p>
-                        <div class="portfolio-item__information-block__links-list">
-                            <p class="paragraph-secondary-semibold">Посилання</p>
-                            <ul>
-                                <li v-for="(link, index) in site.links" :key="index">
-                                    <a :href="`${link.url}`" class="paragraph-secondary-regular">{{link.label}}</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <portfolio-case
+                    :title="site.title"
+                    :description="site.description"
+                    :img-of-project="site.imgOfProject"
+                    :links="site.links">
+                </portfolio-case>
             </li>
         </ul>
     </div>
 </template>
 
 <script>
-// import PortfolioCase from './PortfolioCase.vue'
+import PortfolioCase from './PortfolioCase.vue'
 
 export default {
     name: 'PortfolioList',
-    // components: { PortfolioCase },
+    components: { PortfolioCase },
     data() {
         return {
             sites:[

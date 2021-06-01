@@ -67,3 +67,36 @@
         }
     }
 }
+
+@media screen and (min-device-width: 415px) and (max-device-width: 767px){
+    .education-block{
+        width: $inner-main-page-width-mobile-landscape;
+        .header-2{
+            margin-bottom: 36px;
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        margin-bottom: 48px;
+    }
+
+    .education-block-item{
+        margin-bottom: 24px;
+    }
+
+    .education-block-item__primary{
+        margin-bottom: 16px;
+        .paragraph-secondary-regular{
+            color: $additional-font-color;
+        }
+    }
+
+    .education-block-item__primary-title{
+        margin-bottom: 16px;
+        display: flex;
+        :first-child{
+            letter-spacing: 2.4px;
+            margin-right: 8px;
+        }
+    }
+}

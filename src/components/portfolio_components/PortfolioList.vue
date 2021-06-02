@@ -23,50 +23,16 @@ export default {
         return {
             sites:[
                 {
-                    title: 'LinkBase v1.0',
-                    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, litora metus porta integer consequat quisque fringilla, mi dictum neque ultrices maximus diam. In proin iaculis venenatis diam purus.',
-                    imgOfProject: require('@/images/smile.png'),
+                    title: 'Мій вебсайт',
+                    description: 'Сайт-візитка з резюме та портфоліо.',
+                    imgOfProject: require('@/images/portfolio_website.png'),
                     links:[
-                        {
-                            label: 'behance',
-                            url: 'https://behance.net/'
-                        },
                         {
                             label: 'github',
-                            url: 'https://github.com/'
+                            url: 'https://github.com/such-an-inbetweener/myownwebsite'
                         }
                     ]
-                },
-                {
-                    title: 'LinkBase v1.0',
-                    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, litora metus porta integer consequat quisque fringilla, mi dictum neque ultrices maximus diam.',
-                    imgOfProject: require('@/images/project_image.png'),
-                    links:[
-                        {
-                            label: 'behance',
-                            url: 'https://behance.net/'
-                        },
-                    ]
-                },
-                {
-                    title: 'LinkBase v1.0',
-                    description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit, litora metus porta integer consequat quisque fringilla, mi dictum neque ultrices maximus diam. In proin iaculis venenatis diam purus dis nostra volutpat auctor ornare.',
-                    imgOfProject: require('@/images/project_image.png'),
-                    links:[
-                        {
-                            label: 'behance',
-                            url: 'https://behance.net/'
-                        },
-                        {
-                            label: 'github',
-                            url: 'https://github.com/'
-                        },
-                        {
-                            label: 'вебсайт',
-                            url: 'https://github.com/'
-                        }
-                    ]
-                },
+                }
             ]
         }
     }

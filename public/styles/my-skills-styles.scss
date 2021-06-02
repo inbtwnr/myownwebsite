@@ -1,7 +1,7 @@
 @import 'main';
 @import 'fonts';
 
-@media screen and (max-device-width: 415px){
+@media screen and (min-device-width: 359px) and (max-device-width: 415px){
     .my-skills-block {
         width: $inner-main-page-width-mobile;
         margin-bottom: 48px;
@@ -212,6 +212,8 @@
         display: flex;
         flex-direction: column;
     }
+
+    
 
     .skill-item-block {
         display: flex;

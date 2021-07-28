@@ -26,7 +26,7 @@ export default {
     return {
       projects: [
         {
-          nameOfTask: "My financial independence",
+          nameOfTask: "My financial independence mobile app",
           roleTitle: "As an interface designer",
           roleDescription:
             "Here I reworked the «raw» layouts to fit the figma standards. Used components and variants, adaptability of layouts and made a demo. My participation in this project is on the Master pages and in the Components. In old layouts what was before the changes.",
@@ -40,7 +40,7 @@ export default {
           ],
         },
         {
-          nameOfTask: "Apple Home",
+          nameOfTask: "Apple Home website",
           roleTitle: "As an interface designer",
           roleDescription: "I designed an e-commence for the Apple home shop.",
           taskList: ["Made layouts and styles for all type of screens."],
@@ -49,7 +49,7 @@ export default {
           ],
         },
         {
-          nameOfTask: "Sterna.studio",
+          nameOfTask: "Sterna.studio website",
           roleTitle: "As an interface designer",
           roleDescription:
             "I designed an corporate site for the Sterna.studio.",
@@ -60,6 +60,17 @@ export default {
           linkList: [
             "https://www.figma.com/file/njpnyx894f8MphEbdHMTb9/Layouts?node-id=0%3A1",
           ],
+        },
+        {
+          nameOfTask: "Linkbase website",
+          roleTitle: "As an interface designer and frontend developer",
+          roleDescription:
+            "I designed and developed an web service, where you can save and group links.",
+          taskList: [
+            "Designed layouts and styles.",
+            "Developed frontend part of website",
+          ],
+          linkList: ["https://github.com/such-an-inbetweener/linkbase"],
         },
       ],
     };

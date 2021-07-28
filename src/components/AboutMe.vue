@@ -1,17 +1,18 @@
 <template>
-    <div class="about-me-block">
-        <p class="header-2"> {{ aboutMeHeader }} </p>
-        <p class="paragraph-primary-regular"> {{ aboutMeText }} </p>
-    </div>
+  <div class="about-me-block">
+    <p class="header-2">{{ aboutMeHeader }}</p>
+    <p class="paragraph-primary-regular">{{ aboutMeText }}</p>
+  </div>
 </template>
 <script>
-    export default {
-        name: 'AboutMe',
-        data(){
-            return{
-                aboutMeHeader:'Про мене',
-                aboutMeText: 'Я дизайнер інтерфейсів. Цікавлюся проектуванням зручних веб сервісів та додатків. Допомагаю людям робити естетичні та зручні сайти, програми. Працюю як з версткою сайтів, так же можу робити дизайн системи. Одна з улюблених задач – типографіка на сайтах.'
-            }
-        }
-    }
+export default {
+  name: "AboutMe",
+  data() {
+    return {
+      aboutMeHeader: "About me",
+      aboutMeText:
+        "Hi, my name is Sasha and I am a front-end developer. I love to design and develop interfaces and websites. I like working in a team: you can always learn a lot and it's fun. From the design side, I work with site layout and design systems.",
+    };
+  },
+};
 </script>

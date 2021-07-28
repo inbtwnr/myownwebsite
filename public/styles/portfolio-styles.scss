@@ -231,11 +231,16 @@
         }
     }
 
+    .portfolio-item__img-container{
+
+    }
+
     .portfolio-item__content{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
+
     .portfolio-item__information-block{
         width: 378px;
         .paragraph-secondary-regular{

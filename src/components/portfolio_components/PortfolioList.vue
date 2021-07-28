@@ -47,6 +47,10 @@ export default {
               label: "behance (old version)",
               url: "https://www.behance.net/gallery/114438279/Linkbase-bookmarks-storage",
             },
+            {
+              label: "linkbase website",
+              url: "https://linkbase-web.herokuapp.com/",
+            },
           ],
         },
       ],

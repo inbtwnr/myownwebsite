@@ -70,7 +70,7 @@ export default {
             "Designed layouts and styles.",
             "Developed frontend part of website",
           ],
-          linkList: ["https://github.com/such-an-inbetweener/linkbase"],
+          linkList: ["https://linkbase-web.herokuapp.com/"],
         },
       ],
     };

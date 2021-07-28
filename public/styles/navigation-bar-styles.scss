@@ -105,6 +105,9 @@
         }
         .paragraph-secondary-regular{
             color: #466dec;
+            &:hover{
+                color: #95aeff;
+            }
         }
         :last-child{
             margin-right: 0;

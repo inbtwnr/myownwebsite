@@ -30,6 +30,17 @@
         margin: 0;
     }
 
+    a{  
+        color:#2f6bdb;
+        &:visited{
+            color:#2f6bdb;
+        }
+        &:hover{
+            color:#6da0ff;
+        }
+        text-decoration: none;
+    }
+
     #app { 
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale; 
@@ -37,5 +48,4 @@
         flex-direction: column;
         align-items: center;
         font-family: $main-font-family;
-        color: $main-font-color;
     }

@@ -14,12 +14,12 @@
         }
         a{
             text-decoration: none;
-            color: #677DA2;
+            color: #2d68cc;
             &:visited{
                 color: inherit;
             }
             &:hover{
-                color: #9AA8C1;
+                color: #6194ec;
             }
             
         }
@@ -46,12 +46,12 @@
         }
         a{
             text-decoration: none;
-            color: #677DA2;
+            color: #2d68cc;
             &:visited{
                 color: inherit;
             }
             &:hover{
-                color: #9AA8C1;
+                color: #6194ec;
             }
             
         }
@@ -78,12 +78,12 @@
         }
         a{
             text-decoration: none;
-            color: #677DA2;
+            color: #2d68cc;
             &:visited{
                 color: inherit;
             }
             &:hover{
-                color: #9AA8C1;
+                color: #6194ec;
             }
             
         }
@@ -108,14 +108,13 @@
         }
         a{
             text-decoration: none;
-            color: #677DA2;
+            color: #2d68cc;
             &:visited{
                 color: inherit;
             }
             &:hover{
-                color: #9AA8C1;
+                color: #6194ec;
             }
-            
         }
         :last-child{
             margin-right: 0;
@@ -135,16 +134,8 @@
         .paragraph-secondary-regular, .paragraph-secondary-semibold{
             margin-right: 24px; 
         }
-        a{
-            text-decoration: none;
-            color: #677DA2;
-            &:visited{
-                color: inherit;
-            }
-            &:hover{
-                color: #9AA8C1;
-            }
-            
+        .paragraph-secondary-regular{
+            color: #466dec;
         }
         :last-child{
             margin-right: 0;

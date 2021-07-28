@@ -47,9 +47,7 @@ export default {
             "HTML & CSS",
             "Sass",
             "Vue.JS (Vue Router, VueX)",
-            "Node.JS",
             "JavaScript",
-            "Github",
           ],
         },
         {

@@ -5,7 +5,7 @@
         <p class="paragraph-primary-semibold">{{ universityName }}</p>
         <p class="paragraph-primary-semibold">{{ faculty }}</p>
       </div>
-      <p class="paragraph-secondary-regular">Date of end {{ graduation }}.</p>
+      <p class="paragraph-secondary-regular">Year of end {{ graduation }}.</p>
     </div>
     <p class="paragraph-secondary-semibold">{{ speciality }}</p>
   </div>

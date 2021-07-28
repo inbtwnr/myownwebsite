@@ -39,6 +39,7 @@ export default {
             "Adobe Illustrator",
             "Adobe InDesign",
             "Visual Studio Code",
+            "Github",
           ],
         },
         {

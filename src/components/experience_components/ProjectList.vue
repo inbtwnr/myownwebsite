@@ -58,7 +58,7 @@ export default {
             "Made brand logotype",
           ],
           linkList: [
-            "https://www.figma.com/file/njpnyx894f8MphEbdHMTb9/Layouts?node-id=0%3A1",
+            "https://www.figma.com/file/0D4OcGsJCcmGW9mhSiSyXw/Sterna-studio-site?node-id=248%3A2676",
           ],
         },
         {

@@ -5,7 +5,9 @@
         <p class="paragraph-primary-semibold">{{ universityName }}</p>
         <p class="paragraph-primary-semibold">{{ faculty }}</p>
       </div>
-      <p class="paragraph-secondary-regular">Year of end {{ graduation }}.</p>
+      <p class="paragraph-secondary-regular">
+        From {{ Start }} — to {{ graduation }}.
+      </p>
     </div>
     <p class="paragraph-secondary-semibold">{{ speciality }}</p>
   </div>
@@ -14,6 +16,6 @@
 <script>
 export default {
   name: "EducationItem",
-  props: ["universityName", "graduation", "faculty", "speciality"],
+  props: ["universityName", "graduation", "faculty", "start", "speciality"],
 };
 </script>

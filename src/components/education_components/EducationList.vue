@@ -7,6 +7,7 @@
         class="education-block-item"
       >
         <education-item
+          :start="education.start"
           :university-name="education.universityName"
           :graduation="education.graduation"
           :faculty="education.faculty"
@@ -29,6 +30,7 @@ export default {
       educations: [
         {
           universityName: "UZHNU",
+          start: "2017",
           graduation: "2021",
           faculty: "Faculty of Mathematics and Digital Technologies",
           speciality: "Applied mathematics. Bachelor",

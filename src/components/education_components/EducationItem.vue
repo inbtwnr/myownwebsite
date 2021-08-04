@@ -6,7 +6,7 @@
         <p class="paragraph-primary-semibold">{{ faculty }}</p>
       </div>
       <p class="paragraph-secondary-regular">
-        From {{ Start }} — to {{ graduation }}.
+        From {{ start }} — to {{ graduation }}.
       </p>
     </div>
     <p class="paragraph-secondary-semibold">{{ speciality }}</p>
